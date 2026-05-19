@@ -1,0 +1,36 @@
+# Copy this file to application.properties and replace the placeholder values with your real credentials.
+
+spring.application.name=Clowie
+
+# Database configuration for local development.
+spring.datasource.url=jdbc:postgresql://localhost:5432/clowie_db
+spring.datasource.username=postgres
+spring.datasource.password=postgres
+
+# Hibernate / JPA settings
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+# Frontend origin used for CORS. Adjust in production if your frontend runs elsewhere.
+frontend.url=http://localhost:5173
+
+# Gemini AI configuration: set your API key here or in environment variables.
+gemini.api.key=
+gemini.api.url=https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=
+
+# Groq API settings (optional)
+# groq.api.url=https://api.groq.com/openai/v1/chat/completions
+# groq.api.key=
+# groq.api.model=llama3-8b-8192
+
+# Email configuration: set production SMTP credentials here or via environment variables.
+spring.mail.host=smtp.gmail.com
+spring.mail.port=587
+spring.mail.username=your-email@example.com
+spring.mail.password=your-email-password
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
+
+# Google OAuth client credentials
+google.client.id=your-google-client-id
+google.client.secret=your-google-client-secret
