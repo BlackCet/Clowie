@@ -13,7 +13,7 @@
 
 # Environment and secret files
 *.env
-*.env.*
+#*.env.*
 
 # Logs
 logs
