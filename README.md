@@ -1,4 +1,4 @@
-`![Clowie Banner](https://i.pinimg.com/736x/d9/e3/96/d9e396633e9f81962c68d8c0defd5d08.jpg)`
+![Clowie Banner](https://i.pinimg.com/736x/d9/e3/96/d9e396633e9f81962c68d8c0defd5d08.jpg)
 # 🌸 Clowie
 
 > *Your sweet, smart, and delightfully crisp AI scheduling assistant.* ✨
