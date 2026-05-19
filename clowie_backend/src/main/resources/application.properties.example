@@ -3,14 +3,18 @@
 spring.application.name=Clowie
 
 # Database configuration for local development.
-spring.datasource.url=jdbc:postgresql://localhost:5432/clowie_db
-spring.datasource.username=postgres
-spring.datasource.password=postgres
+#spring.datasource.url=jdbc:postgresql://localhost:5432/clowie_db
+#spring.datasource.username=postgres
+#spring.datasource.password=postgres
+#MOVED TO NEON
+spring.datasource.url=DB_URL
+spring.datasource.username=DB_USER
+spring.datasource.password=DB_PASS
 
 # Hibernate / JPA settings
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
-
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
 # Frontend origin used for CORS. Adjust in production if your frontend runs elsewhere.
 frontend.url=http://localhost:5173
 

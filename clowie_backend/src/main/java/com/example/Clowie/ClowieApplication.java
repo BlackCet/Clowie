@@ -8,6 +8,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 public class ClowieApplication {
 
 	public static void main(String[] args) {
+		System.setProperty("java.net.preferIPv4Stack", "true");
 		SpringApplication.run(ClowieApplication.class, args);
 	}
 
